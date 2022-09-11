@@ -244,12 +244,12 @@ function Notes(_ref2) {
 
     useEffect(function () {
         //console.log('pgChanged')
+        setErr('');
         setGetLoader('block');
         chrome.runtime.sendMessage({ action: "get", vidID: cc }, function (response) {
             if (response.verdict) {
                 setAllNotes(JSON.parse(response.msg));
                 setGetLoader('none');
-                setErr('');
             } else {
                 alert('Some error occured, refresh page!');
                 setErr('Some error occured, refresh page');
