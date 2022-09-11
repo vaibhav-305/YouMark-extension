@@ -249,7 +249,9 @@ function Notes(_ref2) {
             if (response.verdict) {
                 setAllNotes(JSON.parse(response.msg));
                 setGetLoader('none');
+                setErr('');
             } else alert('Some error occured, refresh page!');
+            setErr('Some error occured, refresh page');
         });
         setAllNotes([]);
     }, [cc]);
