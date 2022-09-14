@@ -2,7 +2,7 @@
 
 Steps To Use:
 
-1. Download the repositry as a zip file(go to the top green icon and click it and  select option "Download as zip"
+1. Download the repositry as a zip file(go to the top green icon and click it and  select option "Download ZIP"
 2. Unzip the file in your system.
 3. On google chrome , go to "chrome://extensions/"
 4. Turn on the developers mode (available on the top right of window)
