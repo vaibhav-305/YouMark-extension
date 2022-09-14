@@ -9,4 +9,4 @@ Steps To Use:
 5. click on "Load Unpacked" and select the dowloaded folder (Unzipped file).  
 Thats it !  
 U are all set Up   
-Now **You Mark** ur custom timestamped bookmarks!
+Now **You Mark** ur custom timestamped bookmarks for YouTube Videos!
